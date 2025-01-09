@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de QR Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de QR Code</h1>
+            <input type="text" id="text" name="text" placeholder="Entrez votre texte ou l'URL">
+            <button id="generate-btn">Générer QR Code</button>
+            <button id="reset-btn" class="reset">Réinitialiser</button>
+        <div id="qrcode"></div>
+    </div>
+    <!-- <script  src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
